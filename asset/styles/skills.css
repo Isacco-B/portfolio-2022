@@ -1,0 +1,124 @@
+@import "general.css";
+
+/* ......../ Skills /.......... */
+
+.skills {
+  background: var(--clr-blue-800);
+  padding: 0 1.5rem 4rem 1.5rem;
+}
+
+.skills-container {
+  margin: auto;
+}
+
+.skills-title {
+  padding: 2rem 0;
+  font-family: 'Fredoka One', cursive;
+  color: var(--clr-white);
+  font-size: var(--fs-700);
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.skills-card {
+  text-align: center;
+  padding: var(--size-600);
+  background: var(--clr-white);
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+.skills-ico {
+  background-color: var(--clr-red-400);
+  color: var(--clr-white);
+  border-radius: var(--size-400);
+  font-size: var(--fs-700);
+  padding: var(--size-200);
+}
+
+.skills-card h2 {
+  font-family: 'Roboto', sans-serif;
+  color: var(--clr-blue-800);
+  font-weight: 500;
+  font-size: var(--fs-700);
+  padding: var(--size-300) 0;
+}
+
+.skills-card p {
+  font-family: 'Roboto', sans-serif;
+  color: var(--clr-gray);
+  font-weight: 400;
+  font-size: var(--fs-600);
+  padding-bottom: var(--size-300);
+}
+
+.skills-card h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: var(--fs-600);
+  padding-bottom: var(--size-300);
+}
+
+.language-img {
+  display: flex;
+  justify-content: center;
+  gap: var(--size-200);
+}
+
+.language-img img {
+  width: var(--size-700);
+}
+
+
+/* Tablet */
+
+@media (min-width: 550px) {
+  .skills {
+    padding: 0 5rem 4rem 5rem;
+  }
+
+  .skills-title {
+    font-size: var(--fs-750);
+  }
+
+  .skills-card h2 {
+    font-size: var(--fs-750);
+  }
+
+  .skills-card p {
+    font-size: var(--fs-700);
+  }
+
+  .skills-card h3 {
+    font-size: var(--fs-650);
+  }
+
+}
+
+
+/* Desktop */
+@media (min-width: 875px) {
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--size-400);
+  }
+
+  .skills-card {
+    text-align: center;
+    max-width: 400px;
+    padding: var(--size-400);
+    background: var(--clr-white);
+    border-radius: var(--size-300);
+  }
+
+  .skills-card p {
+    font-size: var(--fs-650);
+  }
+
+  .skills-card h3 {
+    font-size: var(--fs-600);
+  }
+}

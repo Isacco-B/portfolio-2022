@@ -1,0 +1,110 @@
+@import "general.css";
+
+/* ......../ NavBar /.......... */
+
+.navbar {
+  background: var(--clr-gray-800);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.navbar-content {
+  max-width: 75rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--size-300);
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: var(--clr-white);
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-700);
+}
+
+.navbar-menu li {
+  display: inline-block;
+  font-size: var(--fs-600);
+  padding: 0 var(--size-400)
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: var(--clr-white);
+  font-size: var(--fs-600);
+  font-family: var(--ff-secondary);
+}
+
+.navbar-menu li a:hover,
+.navbar-menu li a:focus {
+  color: var(--clr-red);
+}
+
+.hamburger-ico {
+  display: none;
+}
+
+@media (max-width: 786px) {
+  .navbar-menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: var(--clr-red);
+    height: 0vh;
+    overflow: hidden;
+    transition: all 1s cubic-bezier(.215, .61, .335, 1);
+
+  }
+
+  .navbar-menu li {
+    display: block;
+    text-align: center;
+    padding: var(--size-200) 0;
+    margin: auto;
+  }
+
+  .navbar-menu li a:hover,
+  .navbar-menu li a:focus {
+    color: var(--clr-gray-800);
+    border-bottom: 1px solid var(--clr-blue-800);
+
+  }
+
+  .navbar-menu-open {
+    width: 100%;
+    padding: 30px;
+    height: 30vh;
+
+  }
+
+  .hamburger-ico {
+    display: block;
+    padding-right: var(--size-300);
+  }
+
+  .icon-close {
+    display: none;
+  }
+
+  .icon-hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger-open-false {
+    display: none;
+  }
+
+  .hamburger-open-true {
+    display: block;
+    cursor: pointer;
+  }
+
+}

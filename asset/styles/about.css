@@ -1,0 +1,59 @@
+@import "general.css";
+
+/* ......../ About /.......... */
+
+.about {
+  padding: var(--size-600);
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--size-500);
+  margin: 0 auto;
+}
+
+.about-container h1 {
+  font-family: 'Fredoka One', cursive;
+  color: var(--clr-blue-800);
+  font-size: var(--fs-700);
+  text-decoration: underline;
+}
+
+.about-container p {
+  font-family: 'Roboto', sans-serif;
+  font-size: var(--fs-600);
+  text-align: center;
+  line-height: var(--size-600);
+  color: var(--clr-gray);
+}
+
+.about-container img {
+  max-width: 40%;
+}
+
+/* Tablet */
+
+@media (min-width: 550px) {
+  .about-container h1 {
+    font-size: var(--fs-750);
+  }
+
+  .about-container p {
+    font-size: var(--fs-700);
+  }
+
+}
+
+/* Desktop */
+
+@media (min-width: 875px) {
+  .about-container {
+    max-width: 62.5rem;
+  }
+
+  .about-container p {
+    font-size: var(--fs-650);
+  }
+}

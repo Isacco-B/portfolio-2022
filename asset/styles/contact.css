@@ -1,0 +1,53 @@
+@import "general.css";
+
+/* ......../ Contact /.......... */
+
+.contact {
+  background: linear-gradient(to right, #1D3557, #457B9D);
+  padding: var(--size-400);
+}
+
+.contact-title {
+  padding: 2rem 0;
+  font-family: 'Fredoka One', cursive;
+  color: var(--clr-white);
+  font-size: var(--fs-700);
+  text-align: center;
+  text-decoration: underline;
+}
+
+.form-container {
+  max-width: 800px;
+  margin: auto;
+  background-color: var(--clr-red-400);
+  box-shadow: 0 5px 20px rgb(48, 48, 48);
+  border-radius: var(--size-500);
+  padding: var(--size-400);
+}
+
+.form-container input,
+.form-container textarea {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  min-width: 450px;
+  border: none;
+  border-radius: 20px;
+
+}
+
+.send-btn {
+  background: var(--clr-blue-800);
+  color: var(--clr-white);
+  font-family: var(--ff-secondary);
+  box-shadow: 0 5px 10px rgb(48, 48, 48);
+  cursor: pointer;
+}
+
+@media (max-width: 786px) {
+
+  .form-container input,
+  .form-container textarea {
+    min-width: 200px;
+  }
+}
