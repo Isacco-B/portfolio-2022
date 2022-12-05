@@ -1,0 +1,64 @@
+@import "variables.scss";
+
+/* ......../ Home /.......... */
+
+#particles-js {
+  background: linear-gradient(to right, #1D3557, #457B9D);
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#particles-js {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+.hero-container {
+  padding: $size-300;
+  text-align: center;
+  color: $clr-white;
+  position: absolute;
+  z-index: 1;
+
+  h1 {
+    font-size: $fs-700;
+    font-family: $ff-secondary;
+  }
+
+  h2 {
+    font-size: $fs-600;
+    font-family: $ff-primary;
+    font-weight: $fw-bold;
+    margin-bottom: $size-400;
+  }
+
+  p {
+    @extend h2;
+    margin-bottom: $size-900;  
+  }
+}
+
+.hero-icons {
+  font-size: $fs-700;
+  margin-bottom: $size-600;
+
+  a {
+    color: $clr-blue-100;
+    text-decoration: none;
+  }
+}
+
+.ico {
+  border: 2px solid $clr-blue-100;
+  border-radius: $size-300;
+  padding: 6px;
+  margin: 4px;
+
+  &:hover {
+    background-color: $clr-blue-100;
+    color: $clr-blue-800;
+  }
+}

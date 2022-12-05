@@ -1,0 +1,34 @@
+@import "variables.scss";
+
+/* ......../ About /.......... */
+
+.about {
+    padding: $size-600;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $size-500;
+    margin: 0 auto;
+
+    h1 {
+        font-family: $ff-secondary;
+        color: $clr-blue-800;
+        font-size: $fs-700;
+        text-decoration: underline;
+    }
+
+    p {
+        font-family: $ff-primary;
+        font-size: $fs-600;
+        text-align: center;
+        line-height: $size-600;
+        color: $clr-gray;
+    }
+
+    img {
+        max-width: 40%;
+    }
+}

@@ -1,0 +1,70 @@
+@import "variables.scss";
+
+/* ......../ Skills /.......... */
+
+.skills {
+  background: $clr-blue-800;
+  padding: 0 1.5rem 4rem 1.5rem;
+}
+
+.skills-title {
+  padding: 2rem 0;
+  font-family: $ff-secondary;
+  color: $clr-white;
+  font-size: $fs-700;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.skills-container {
+  margin: auto;
+}
+
+.skills-card {
+  text-align: center;
+  padding: $size-600;
+  background: $clr-white;
+  margin-bottom: 15px;
+  border-radius: $size-400;
+
+  i {
+    background-color: $clr-red;
+    color: $clr-white;
+    border-radius: $size-400;
+    font-size: $fs-700;
+    padding: $size-200;
+  }
+
+  h2 {
+    font-family: $ff-primary;
+    color: $clr-blue-800;
+    font-weight: $fw-semi-bold;
+    font-size: $fs-700;
+    padding: $size-300 0;
+  }
+
+  p {
+    font-family: $ff-primary;
+    color: $clr-gray;
+    font-weight: $fw-regular;
+    font-size: $fs-600;
+    padding-bottom: $fs-300;
+  }
+
+  h3 {
+    font-family: $ff-primary;
+    font-weight: $fw-semi-bold;
+    font-size: $fs-600;
+    padding-bottom: $size-300;
+  }
+}
+
+.language-img {
+  display: flex;
+  justify-content: center;
+  gap: $size-200;
+
+  img {
+    width: $size-700;
+  }
+}

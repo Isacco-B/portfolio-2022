@@ -1,0 +1,48 @@
+@import "variables.scss";
+
+/* ......../ Contact /.......... */
+
+.contact {
+    background: linear-gradient(to right, #1D3557, #457B9D);
+    padding: $size-400;  
+}
+
+.contact-title {
+    padding: 2rem 0;
+    font-family: $ff-secondary;
+    color: $clr-white;
+    font-size: $fs-700;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.form-container {
+    max-width: 50rem;
+    margin: auto;
+    background-color: $clr-red-400;
+    box-shadow: 0 5px 20px rgb(48, 48, 48);
+    border-radius: $size-500;
+    padding: $size-400;
+
+    input,
+    textarea {
+        display: block;
+        margin: $size-300 auto;
+        padding: $size-300;
+        min-width: 28rem;
+        border: none;
+        border-radius: $size-500;
+    } 
+}
+
+.send-btn {
+    background: $clr-blue-800;
+    color: $clr-white;
+    font-family: $ff-secondary;
+    box-shadow: 0 5px 10px rgb(48, 48, 48);
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(.98);
+    }
+}

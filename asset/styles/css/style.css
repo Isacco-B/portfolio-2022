@@ -1,0 +1,570 @@
+/* ......../ CssRest /.......... */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+  scroll-padding: 40px;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* ......../ NavBar /.......... */
+.navbar {
+  background: #2c2c2c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.navbar-content {
+  max-width: 75rem;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+}
+
+.navbar-logo a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Fredoka One", cursive;
+  font-size: 1.5rem;
+}
+
+.navbar-menu li {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+.navbar-menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Fredoka One", cursive;
+}
+.navbar-menu li a:hover, .navbar-menu li a:focus {
+  color: #E63946;
+}
+
+.hamburger-ico {
+  display: none;
+}
+
+/* ......../ Home /.......... */
+#particles-js {
+  background: linear-gradient(to right, #1D3557, #457B9D);
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#particles-js {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+.hero-container {
+  padding: 0.75rem;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+}
+.hero-container h1 {
+  font-size: 1.5rem;
+  font-family: "Fredoka One", cursive;
+}
+.hero-container h2, .hero-container p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.hero-container p {
+  margin-bottom: 5rem;
+}
+
+.hero-icons {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.hero-icons a {
+  color: #F1FAEE;
+  text-decoration: none;
+}
+
+.ico {
+  border: 2px solid #F1FAEE;
+  border-radius: 0.75rem;
+  padding: 6px;
+  margin: 4px;
+}
+.ico:hover {
+  background-color: #F1FAEE;
+  color: #1D3557;
+}
+
+/* ......../ About /.......... */
+.about {
+  padding: 2rem;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0 auto;
+}
+.about-container h1 {
+  font-family: "Fredoka One", cursive;
+  color: #1D3557;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.about-container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 2rem;
+  color: #494949;
+}
+.about-container img {
+  max-width: 40%;
+}
+
+/* ......../ Skills /.......... */
+.skills {
+  background: #1D3557;
+  padding: 0 1.5rem 4rem 1.5rem;
+}
+
+.skills-title {
+  padding: 2rem 0;
+  font-family: "Fredoka One", cursive;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.skills-container {
+  margin: auto;
+}
+
+.skills-card {
+  text-align: center;
+  padding: 2rem;
+  background: #fff;
+  margin-bottom: 15px;
+  border-radius: 1rem;
+}
+.skills-card i {
+  background-color: #E63946;
+  color: #fff;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.skills-card h2, .skills-card .hero-container p, .hero-container .skills-card p {
+  font-family: "Roboto", sans-serif;
+  color: #1D3557;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 0.75rem 0;
+}
+.skills-card p {
+  font-family: "Roboto", sans-serif;
+  color: #494949;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-bottom: 0.75;
+}
+.skills-card h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-bottom: 0.75rem;
+}
+
+.language-img {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.language-img img {
+  width: 3rem;
+}
+
+/* ......../ Projects /.......... */
+.project-container {
+  padding: 0.75rem;
+}
+
+.project-title {
+  padding: 2rem 0;
+  font-family: "Fredoka One", cursive;
+  color: #1D3557;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: #1D3557;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0px 5px 15px #A8DADC;
+  margin-bottom: 3rem;
+}
+
+.project-img {
+  width: 35%;
+  margin-bottom: 1rem;
+}
+.project-img img {
+  margin: auto;
+  width: 100%;
+}
+
+.project-info {
+  text-align: center;
+  margin: auto;
+}
+.project-info h2, .project-info .hero-container p, .hero-container .project-info p {
+  font-family: "Fredoka One", cursive;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+.project-info p {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.project-btn {
+  margin-bottom: 0.75rem;
+}
+
+/* ......../ Contact /.......... */
+.contact {
+  background: linear-gradient(to right, #1D3557, #457B9D);
+  padding: 1rem;
+}
+
+.contact-title {
+  padding: 2rem 0;
+  font-family: "Fredoka One", cursive;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.form-container {
+  max-width: 50rem;
+  margin: auto;
+  background-color: #ea4f5c;
+  box-shadow: 0 5px 20px rgb(48, 48, 48);
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+.form-container input,
+.form-container textarea {
+  display: block;
+  margin: 0.75rem auto;
+  padding: 0.75rem;
+  min-width: 28rem;
+  border: none;
+  border-radius: 1.5rem;
+}
+
+.send-btn {
+  background: #1D3557;
+  color: #fff;
+  font-family: "Fredoka One", cursive;
+  box-shadow: 0 5px 10px rgb(48, 48, 48);
+  cursor: pointer;
+}
+.send-btn:hover {
+  transform: scale(0.98);
+}
+
+/* ......../ Footer /.......... */
+.footer {
+  background: #2c2c2c;
+  padding: 1rem;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+.scroll-up a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #E63946;
+}
+
+.btn-primary {
+  border: none;
+  padding: 0.75rem;
+  min-width: 3rem;
+  border-radius: 0.75rem;
+  font-family: "Fredoka One", cursive;
+}
+.btn-primary:hover {
+  background: #ea4f5c;
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: #E63946;
+  color: #F1FAEE;
+}
+
+/* ......../ NavBar /.......... */
+@media (max-width: 786px) {
+  .navbar-menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #E63946;
+    height: 0vh;
+    overflow: hidden;
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.335, 1);
+  }
+  .navbar-menu li {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 0;
+    margin: auto;
+  }
+  .navbar-menu li a:hover,
+.navbar-menu li a:focus {
+    color: #2c2c2c;
+    border-bottom: 1px solid #2c2c2c;
+  }
+  .navbar-menu-open {
+    width: 100%;
+    padding: 30px;
+    height: 30vh;
+  }
+  .hamburger-ico {
+    display: block;
+    padding-right: 0.75rem;
+  }
+  .icon-close {
+    display: none;
+  }
+  .icon-hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger-open-false {
+    display: none;
+  }
+  .hamburger-open-true {
+    display: block;
+    cursor: pointer;
+  }
+}
+/* ......../ Home /.......... */
+@media (min-width: 550px) {
+  .hero-container {
+    max-width: 70rem;
+  }
+  .hero-container h1 {
+    font-size: 3.5rem;
+  }
+  .hero-container h2, .hero-container p {
+    font-size: 2rem;
+  }
+  .hero-container p {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 875px) {
+  .hero-container {
+    max-width: 70rem;
+  }
+  .hero-container h1 {
+    font-size: 5rem;
+  }
+  .hero-container h2, .hero-container p {
+    font-size: 2.5rem;
+  }
+  .hero-container p {
+    font-size: 2rem;
+  }
+}
+/* ......../ About /.......... */
+@media (min-width: 550px) {
+  .about-container h1 {
+    font-size: 2rem;
+  }
+  .about-container p {
+    font-size: 1.5rem;
+  }
+}
+/* Desktop */
+@media (min-width: 875px) {
+  .about-container {
+    max-width: 62.5rem;
+  }
+  .about-container p {
+    font-size: 1.2rem;
+  }
+}
+/* ......../ Skills /.......... */
+@media (min-width: 550px) {
+  .skills {
+    padding: 0 5rem 4rem 5rem;
+  }
+  .skills-title {
+    font-size: 2rem;
+  }
+  .skills-card h2, .skills-card .hero-container p, .hero-container .skills-card p {
+    font-size: 2rem;
+  }
+  .skills-card p {
+    font-size: 1.5rem;
+  }
+  .skills-card h3 {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 875px) {
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  .skills-card {
+    text-align: center;
+    max-width: 400px;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 0.75rem;
+  }
+  .skills-card p {
+    font-size: 1.2rem;
+  }
+  .skills-card h3 {
+    font-size: 1rem;
+  }
+}
+/* ......../ Project /.......... */
+@media (min-width: 550px) {
+  .project-container {
+    padding: 0.75rem 3rem;
+  }
+  .project-title {
+    font-size: 2rem;
+  }
+  .project-info h2, .project-info .hero-container p, .hero-container .project-info p {
+    font-size: 2rem;
+  }
+  .project-info p {
+    font-size: 0.875rem;
+  }
+  .project-btn {
+    margin-right: 2rem;
+  }
+}
+@media (min-width: 875px) {
+  .project-container {
+    max-width: 80rem;
+    margin: auto;
+  }
+  .project-title {
+    font-size: 2rem;
+  }
+  .project {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 1.5rem;
+    max-width: 56rem;
+  }
+  .project-img {
+    margin: auto;
+    width: 100%;
+  }
+  .project-img img {
+    margin: auto;
+    width: 100%;
+  }
+  .project-container-left {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .project-container-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .project-info h2, .project-info .hero-container p, .hero-container .project-info p {
+    font-size: 2rem;
+  }
+  .project-info p {
+    font-size: 1.5rem;
+  }
+  .project-btn {
+    margin-right: 2rem;
+  }
+}
+/* ......../ Contact /.......... */
+@media (max-width: 550px) {
+  .form-container input,
+.form-container textarea {
+    min-width: 12.5rem;
+  }
+}

@@ -1,0 +1,20 @@
+@import "variables.scss";
+
+%btn {
+    border: none;
+    padding: $size-300;
+    min-width: $size-700;
+    border-radius: $size-300;
+    font-family: $ff-secondary;
+
+    &:hover {
+        background: $clr-red-400;
+        transform: scale(.98);
+    }
+  }
+
+.btn-primary {
+    @extend %btn;
+    background: $clr-red;
+    color: $clr-blue-100;
+}
