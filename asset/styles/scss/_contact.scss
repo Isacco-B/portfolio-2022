@@ -33,6 +33,13 @@
         border: none;
         border-radius: $size-500;
     } 
+    
+    label {
+        display: block;
+        color: white;
+        text-align: center;
+        font-family: $ff-secondary;
+    }
 }
 
 .send-btn {

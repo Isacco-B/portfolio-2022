@@ -1,0 +1,51 @@
+@import "variables.scss";
+
+/* ......../ ThankYouPage /.......... */
+
+#particles-js {
+  background: linear-gradient(to right, #1D3557, #457B9D);
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#particles-js {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thx-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 500px;
+  min-height: 300px;
+  background-color: $clr-blue-800;
+  border-radius: $size-500;
+  position: absolute;
+  z-index: 1;
+
+  h1 {
+    font-family: $ff-secondary;
+    font-size: $fs-750;
+    color: $clr-white;
+    margin-bottom: $size-300;
+  }
+
+  p {
+    font-family: $ff-primary;
+    font-size: $fs-650;
+    color: $clr-white;
+    margin-bottom: $size-300;
+  }
+}

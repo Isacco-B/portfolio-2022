@@ -353,6 +353,12 @@ svg {
   border: none;
   border-radius: 1.5rem;
 }
+.form-container label {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+}
 
 .send-btn {
   background: #1D3557;
@@ -386,12 +392,60 @@ svg {
   color: #E63946;
 }
 
+/* ......../ ThankYouPage /.......... */
+#particles-js {
+  background: linear-gradient(to right, #1D3557, #457B9D);
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#particles-js {
+  width: 100% !important;
+  height: 100vh !important;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thx-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 500px;
+  min-height: 300px;
+  background-color: #1D3557;
+  border-radius: 1.5rem;
+  position: absolute;
+  z-index: 1;
+}
+.thx-container h1 {
+  font-family: "Fredoka One", cursive;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+.thx-container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+
 .btn-primary {
   border: none;
   padding: 0.75rem;
   min-width: 3rem;
   border-radius: 0.75rem;
   font-family: "Fredoka One", cursive;
+  min-width: 6rem;
 }
 .btn-primary:hover {
   background: #ea4f5c;
@@ -567,6 +621,7 @@ svg {
     grid-template-columns: 30% 70%;
     gap: 1.5rem;
     max-width: 56rem;
+    min-height: 20.625rem;
   }
   .project-img {
     margin: auto;
