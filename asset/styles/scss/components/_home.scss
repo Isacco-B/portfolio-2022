@@ -17,29 +17,28 @@
 }
 
 .hero-container {
-  padding: $size-300;
   text-align: center;
+  padding: $size-300;
   color: $clr-white;
   position: absolute;
   z-index: 1;
 
   h1 {
-    font-size: $fs-700;
+    line-height: $size-650;
+    font-size: $fs-950;
     font-family: $ff-secondary;
-  }
 
-  h2 {
-    font-size: $fs-600;
-    font-family: $ff-primary;
-    font-weight: $fw-bold;
-    margin-bottom: $size-400;
+    span {
+      font-size: $fs-750;
+      margin-bottom: $size-400;
+    }
   }
 
   p {
     font-size: $fs-600;
     font-family: $ff-primary;
     font-weight: $fw-bold;
-    margin-bottom: $size-900;  
+    margin-bottom: $size-600;  
   }
 }
 

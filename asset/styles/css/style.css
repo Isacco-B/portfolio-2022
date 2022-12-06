@@ -101,27 +101,26 @@ svg {
 }
 
 .hero-container {
-  padding: 0.75rem;
   text-align: center;
+  padding: 0.75rem;
   color: #fff;
   position: absolute;
   z-index: 1;
 }
 .hero-container h1 {
-  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-size: 5rem;
   font-family: "Fredoka One", cursive;
 }
-.hero-container h2 {
-  font-size: 1rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+.hero-container h1 span {
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 .hero-container p {
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .hero-icons {
@@ -252,7 +251,7 @@ svg {
   color: #494949;
   font-weight: 400;
   font-size: 1rem;
-  padding-bottom: 0.75;
+  padding-bottom: 0.75rem;
 }
 .skills-card h3 {
   font-family: "Roboto", sans-serif;
@@ -437,6 +436,7 @@ svg {
   width: 30%;
 }
 
+/* ......../ Button /.......... */
 .btn-primary {
   border: none;
   padding: 0.75rem;
@@ -508,10 +508,10 @@ svg {
     max-width: 70rem;
   }
   .hero-container h1 {
-    font-size: 3.5rem;
+    font-size: 6.5rem;
   }
-  .hero-container h2 {
-    font-size: 2rem;
+  .hero-container h1 span {
+    font-size: 2.5rem;
   }
   .hero-container p {
     font-size: 1.5rem;
@@ -522,10 +522,11 @@ svg {
     max-width: 70rem;
   }
   .hero-container h1 {
-    font-size: 5rem;
+    font-size: 8rem;
+    line-height: 5rem;
   }
-  .hero-container h2 {
-    font-size: 2.5rem;
+  .hero-container h1 span {
+    font-size: 5rem;
   }
   .hero-container p {
     font-size: 2rem;
