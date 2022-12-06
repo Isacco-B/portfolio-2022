@@ -1,4 +1,4 @@
-@import "variables.scss";
+@use "../abstracts/variables" as *;
 
 /* ......../ Home /.......... */
 
@@ -36,7 +36,9 @@
   }
 
   p {
-    @extend h2;
+    font-size: $fs-600;
+    font-family: $ff-primary;
+    font-weight: $fw-bold;
     margin-bottom: $size-900;  
   }
 }

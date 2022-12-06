@@ -111,13 +111,16 @@ svg {
   font-size: 1.5rem;
   font-family: "Fredoka One", cursive;
 }
-.hero-container h2, .hero-container p {
+.hero-container h2 {
   font-size: 1rem;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 .hero-container p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   margin-bottom: 5rem;
 }
 
@@ -237,7 +240,7 @@ svg {
   font-size: 1.5rem;
   padding: 0.5rem;
 }
-.skills-card h2, .skills-card .hero-container p, .hero-container .skills-card p {
+.skills-card h2 {
   font-family: "Roboto", sans-serif;
   color: #1D3557;
   font-weight: 500;
@@ -306,7 +309,7 @@ svg {
   text-align: center;
   margin: auto;
 }
-.project-info h2, .project-info .hero-container p, .hero-container .project-info p {
+.project-info h2 {
   font-family: "Fredoka One", cursive;
   margin-bottom: 1rem;
   color: #fff;
@@ -512,7 +515,7 @@ svg {
   .hero-container h1 {
     font-size: 3.5rem;
   }
-  .hero-container h2, .hero-container p {
+  .hero-container h2 {
     font-size: 2rem;
   }
   .hero-container p {
@@ -526,7 +529,7 @@ svg {
   .hero-container h1 {
     font-size: 5rem;
   }
-  .hero-container h2, .hero-container p {
+  .hero-container h2 {
     font-size: 2.5rem;
   }
   .hero-container p {
@@ -559,7 +562,7 @@ svg {
   .skills-title {
     font-size: 2rem;
   }
-  .skills-card h2, .skills-card .hero-container p, .hero-container .skills-card p {
+  .skills-card h2 {
     font-size: 2rem;
   }
   .skills-card p {
@@ -598,7 +601,7 @@ svg {
   .project-title {
     font-size: 2rem;
   }
-  .project-info h2, .project-info .hero-container p, .hero-container .project-info p {
+  .project-info h2 {
     font-size: 2rem;
   }
   .project-info p {
@@ -639,7 +642,7 @@ svg {
     display: flex;
     justify-content: flex-end;
   }
-  .project-info h2, .project-info .hero-container p, .hero-container .project-info p {
+  .project-info h2 {
     font-size: 2rem;
   }
   .project-info p {

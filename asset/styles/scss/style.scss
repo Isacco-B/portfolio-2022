@@ -1,12 +1,12 @@
-@import "general.scss";
-@import "_navbar.scss";
-@import "home.scss";
-@import "about.scss";
-@import "skills.scss";
-@import "projects.scss";
-@import "contact.scss";
-@import "footer.scss";
-@import "thankyou.scss";
+@use "../scss/abstracts/general";
+@use "../scss/components/navbar";
+@use "../scss/components/home.scss";
+@use "../scss/components/about.scss";
+@use "../scss/components/skills.scss";
+@use "../scss/components/projects.scss";
+@use "../scss/components/contact.scss";
+@use "../scss/components/footer.scss";
+@use "../scss/components/thankyou.scss";
 
-@import "button.scss";
-@import "mobile.scss";
+@use "../scss/components/button.scss";
+@use "../scss/components/mobile.scss";
