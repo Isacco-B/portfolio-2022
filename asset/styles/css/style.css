@@ -323,6 +323,16 @@ svg {
   margin-bottom: 0.75rem;
 }
 
+.skill-project-img {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.skill-project-img img {
+  width: 3rem;
+}
+
 /* ......../ Contact /.......... */
 .contact {
   background: linear-gradient(to right, #1D3557, #457B9D);
@@ -474,7 +484,7 @@ svg {
     margin: auto;
   }
   .navbar-menu li a:hover,
-.navbar-menu li a:focus {
+  .navbar-menu li a:focus {
     color: #2c2c2c;
     border-bottom: 1px solid #2c2c2c;
   }
@@ -651,7 +661,7 @@ svg {
 /* ......../ Contact /.......... */
 @media (max-width: 550px) {
   .form-container input,
-.form-container textarea {
+  .form-container textarea {
     min-width: 12.5rem;
   }
 }

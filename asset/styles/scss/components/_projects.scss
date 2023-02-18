@@ -57,3 +57,14 @@
 .project-btn {
     margin-bottom: $size-300;
 }
+
+.skill-project-img{
+    display: flex;
+    justify-content: center;
+    gap: $size-200;
+    margin-top: $size-200;
+
+    img {
+      width: $size-700;
+    }
+  }
