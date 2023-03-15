@@ -4,7 +4,9 @@
 Portfolio WebSite made for Start2Impact University.
 
 
-![App Screenshot](https://cloud.isaccobertoli.com/s/k5XXdcm22CWmmfY/download/portfolio_home.png)
+<p align="center">
+    <img width="80%" src="./asset/img/portfolio_home.png">
+</p>
 
 
 ## Demo
