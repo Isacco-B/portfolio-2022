@@ -1,7 +1,7 @@
 
 # My Portfolio WebSite
 
-Portfolio WebSite made for Start2Impact University.
+Is my first website created with HTML, CSS, and JavaScript, showcasing my skills and projects.
 
 
 <p align="center">
